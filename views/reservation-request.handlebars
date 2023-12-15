@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pending Room Reservation Request</title>
+</head>
+<body>
+    <div style="font-family: Arial, sans-serif; padding: 20px;">
+        <h2 style="color: #333;">Pending Room Reservation Request for Syphax Hotel</h2>
+        <p>Dear Syphax admin,</p>
+        <p>A new room reservation request is pending for Syphax Hotel:</p>
+        <ul>
+            <li>User: {{ Fullname }}</li>
+            <li>Room: {{ roomDoor }}</li>
+            <li>Floor Number: {{ floor }}</li>
+        </ul>
+        <p>The user has requested to reserve this room. Please review the availability and consider accepting the reservation if the room is available.</p>
+        <p>If the room is available, please proceed with confirming the reservation and updating the status accordingly.</p>
+        <p>Thank you,<br>
+        Syphax Dashboard</p>
+    </div>
+</body>
+</html>

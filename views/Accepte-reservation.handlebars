@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation Accepted</title>
+</head>
+<body>
+    <div style="font-family: Arial, sans-serif; padding: 20px;">
+        <h2 style="color: #333;">Room Reservation Accepted for Syphax Hotel</h2>
+        <p>Dear {{ userName }},</p>
+        <p>Congratulations! Your reservation request for the following room at Syphax Hotel has been accepted:</p>
+        <ul>
+            <li>Room: {{ roomName }}</li>
+            <li>Floor Number: {{ floorNumber }}</li>
+        </ul>
+        <p>We are pleased to confirm your reservation. Please proceed with the necessary steps to finalize the booking and make any required arrangements.</p>
+        <p>Thank you for choosing {{ hotelName }}!</p>
+    </div>
+</body>
+</html>

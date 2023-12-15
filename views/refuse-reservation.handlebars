@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Unavailability Notification</title>
+</head>
+<body>
+    <div style="font-family: Arial, sans-serif; padding: 20px;">
+        <h2 style="color: #333;">Room Unavailability Notification for Syphax Hotel</h2>
+        <p>Dear {{ Fullname }}</p>
+        <p>Unfortunately, the requested room is currently unavailable for reservation at Syphax Hotel:</p>
+        <ul>
+            <li>Requested Room: {{ roomDoor }}</li>
+            <li>Floor Number: {{ floor }}</li>
+        </ul>
+        <p>We apologize for the inconvenience. Please consider suggesting alternative rooms or contact the user to discuss other available options.</p>
+        <p>Thank you,<br>
+        {{ hotelName }} Dashboard</p>
+    </div>
+</body>
+</html>
