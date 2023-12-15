@@ -158,7 +158,9 @@
               "type": "object",
               "properties": {
                 "roles": {
-                  "example": "any"
+                  "example": {
+                        "Admin": 2
+                  }
                 }
               }
             }
@@ -207,7 +209,9 @@
               "type": "object",
               "properties": {
                 "roles": {
-                  "example": "any"
+                  "example": {
+                    "Admin": 2
+                }
                 }
               }
             }
