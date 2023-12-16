@@ -4,7 +4,7 @@ const Reservation = require('../models/Reservation');
 
 async function getAllRooms(req, res) {
     try {
-        const rooms = await Room.find().populate('category');
+        const rooms = await Room.find();
         return res.status(200).json(rooms);
     } catch (error) {
         return res.status(500).json({ message: error.message });
