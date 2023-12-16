@@ -59,9 +59,14 @@ async function removeAdmin(req, res) {
     return res.status(200).json({ message: 'Admin removed successfully' , user});
 }
 
+async function getDashboard(req, res) {
+    return res.status(200).json({ message: 'Welcome to the dashboard' });
+}
+
 module.exports = {
     addRoles,
     removeRoles,
     addAdmin,
-    removeAdmin
+    removeAdmin,
+    getDashboard
 };
