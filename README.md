@@ -24,7 +24,7 @@ Additionally, you can visualize and interact with the API documentation using th
 
 npm run swagger
 
-This will start a local server, and you can view the documentation by navigating to http://localhost:3000/api-docs in your browser.
+This will start a local server, and you can view the documentation by navigating to http://localhost:3000/documentation in your browser.
 
 ## Installation
 
